@@ -20,7 +20,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "community": {
+      "type": "belongsTo",
+      "model": "Community",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
